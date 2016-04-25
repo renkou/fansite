@@ -8,7 +8,20 @@
 </head>
 
 <body>
-    <div class="container"></div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+    <button class="btn btn-primary">Blue button</button>
+    <div class="container">
+    	<a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
+	<div id="mylightbox">This div will be opened in a lightbox</div>
+
+	<section data-featherlight-gallery data-featherlight-filter="a" >
+	<h>This is a gallery</h>
+	<a href="https://static.pexels.com/photos/24485/pexels-photo-24485-large.jpg"><img src="https://static.pexels.com/photos/24485/pexels-photo-24485-large.jpg"></a>
+	<a href="https://static.pexels.com/photos/26030/pexels-photo-26030-large.jpg"><img src="https://static.pexels.com/photos/26030/pexels-photo-26030-large.jpg"></a>
+	</section>
+
+    </div>
+
     <script type="text/javascript" src="./dist/app-browserify.js"></script>
 </body>
 

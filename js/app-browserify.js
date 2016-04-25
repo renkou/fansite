@@ -4,6 +4,10 @@ require("es5-shim")
 // es6 polyfills, powered by babel
 require("babel/polyfill")
 
+require("featherlight")
+require("featherlight-gallery")
+
+var $ = require("jquery")
 var Promise = require('es6-promise').Promise
 // just Node?
 // var fetch = require('node-fetch')
@@ -16,6 +20,8 @@ var Promise = require('es6-promise').Promise
 // require your own libraries, too!
 // var Router = require('./app.js')
 
+// require("./featherlight-1.3.5/release/featherlight.gallery.min.js");
+// $ = window.jQuery = 
 // window.addEventListener('load', app)
 
 // function app() {
