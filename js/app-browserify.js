@@ -6,6 +6,8 @@ require("babel/polyfill")
 
 require("featherlight")
 require("featherlight-gallery")
+require("bootstrap")
+
 
 var $ = require("jquery")
 var Promise = require('es6-promise').Promise
@@ -29,3 +31,4 @@ var Promise = require('es6-promise').Promise
     // new Router()
 // }
 
+$("#carousel-example-generic").carousel();
